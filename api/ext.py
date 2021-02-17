@@ -9,6 +9,6 @@ facts_load = facts["whale_facts"]
 def one_fact(facts_load):
   data = {
    "status": "200",
-    "whales": facts_load
+   "fact": facts_load
   }
   return data
